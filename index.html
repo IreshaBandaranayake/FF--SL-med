@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/mapp.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link href='https://googledrive.com/host/0B4zcNjwo-rgsTjc0OEtJby1pbFk/techfurk-aaamali.css' rel='stylesheet' type='text/css'>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+    <div data-role = "page" id = "page1">
+       <div data-role = "header" style="background-color: #141414;" >
+          <!-- <button class="ui-btn ui-icon-home ui-btn-icon-left">Home Button</button> -->
+          <h1 style="color: #fff; background-color: #141414;"><a href = "" style="text-decoration: none;">Home </a><font face="Techfurk AAAmali" > පියවර  1</font></h1>
+       </div>
+       
+       <div role = "main" class = "ui-content">
+          <fieldset data-role="controlgroup">
+            <legend ><font face="Techfurk AAAmali" >Q - A1 ඔබ විසින් ඔබේ දරුවාට ආහාර ලබාදීම තෝරාගත් එක් නිශ්චිත ස්ථානයකදී සිදුකරයි.(උදාහරණ - පැදුරක් මත, පුටුවක වාඩිවී, සෙල්ලම් ගෙය තුල ආදී ) </font></legend>
+              <input type="radio" id="rd-age-1" name="rd-age" value="0" required>
+              <label for="rd-age-1"><font face="Techfurk AAAmali" >(i) ඔව් </font></label>        
+              <input type="radio" id="rd-age-2" name="rd-age" value="2" required>
+              <label for="rd-age-2" ><font face="Techfurk AAAmali" >(ii) නැත </font></label> 
+              
+          </fieldset>
+          <a href = "#page2" style="color: #000; text-decoration: none; text-align:center;">ඊළග ප්‍රශ්නය >> </a>
+       </div>
+       
+       <!-- <div data-role = "footer">
+          <h4>Footer1</h4>
+       </div> -->
+    </div>
+    
+    <div data-role = "page" id = "page2">
+       <div data-role = "header">
+          <!-- <button class="ui-btn ui-icon-home ui-btn-icon-left">Home Button</button> -->
+          <h1> පියවර 2</h1>
+       </div>
+       
+       <div role = "main" class = "ui-content">
+          <fieldset data-role="controlgroup">
+            <legend>Q- A2 ඔබ විසින් ඔබේ දරුවාට ආහාර ලබාදීම තෝරාගත් එක්......</legend>
+              <input type="radio" name="food" id="food1" value="3" required>
+              <label for="food1">(i) ඔව්</label>
+              <input type="radio" name="food" id="food1" value="0" required>
+              <label for="food2">(ii) නැත</label>   
+            </fieldset>
+          <p><a href = "#page1" style="color: #000">ආපසු</a> || <a href = "#page3" style="color: #000">ඊළග ප්‍රශ්නය</a></p>
+       </div>
+       
+       <!-- <div data-role = "footer">
+          <h4>Footer2</h4>
+       </div> -->
+    </div>
+
+    <div data-role = "page" id = "page3">
+       <div data-role = "header">
+          <!-- <button class="ui-btn ui-icon-home ui-btn-icon-left">Home Button</button> -->
+          <h1> පියවර 3</h1>
+       </div>
+       
+       <div role = "main" class = "ui-content">
+          <fieldset data-role="controlgroup">
+            <legend>ඔබ විසින් ඔබේ දරුවාට.....</legend>
+              <input type="radio" id="place1" name="place" value="3" required>
+              <label for="place1">(i) ඔව්</label>  
+              <input type="radio" id="place2" name="place" value="0" required>
+              <label for="place2">(ii) නැත</label>
+          </fieldset>
+          <p><a href = "#page2" style="color: #000">Back</a> || <a href = "#page4" style="color: #000">Next</a></p>
+       </div>
+       
+       <!-- <div data-role = "footer">
+          <h4>Footer3</h4>
+       </div> -->
+    </div>
+   </body>
+</html>
